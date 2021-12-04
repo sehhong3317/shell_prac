@@ -37,6 +37,8 @@ int	main(void)
 	else	//부모 프로세스
 	{
 		wait(NULL);
+		//unlink("infile.txt");
+		//infile.txt 삭제
 	}
 	return (0);
 }
